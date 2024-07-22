@@ -31,11 +31,11 @@ public class App {
 //     private static double areaDiff(Rectangle r, Circle c){
 //         return r.area() - c.area();
 //     }
-    // 2. Iteration: Polymorphie - besser!
+
+    // 2. IterationPolymorphie - besser!
 private static double areaDiff(Shape s1, Shape s2 ){
     return s1.area() - s2.area();
 }
-
 
     private static void output(String outputStr) {
         System.out.println(outputStr);
