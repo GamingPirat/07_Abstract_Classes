@@ -24,13 +24,17 @@ public class App {
     }
 
     //1. Iteration:
-    private static double areaDiff(Rectangle r, Triangle t){
-        return r.area() - t.area();
-    }
-
-    private static double areaDiff(Rectangle r, Circle c){
-        return r.area() - c.area();
-    }
+//     private static double areaDiff(Rectangle r, Triangle t){
+//         return r.area() - t.area();
+//     }
+// 
+//     private static double areaDiff(Rectangle r, Circle c){
+//         return r.area() - c.area();
+//     }
+    // 2. Iteration: Polymorphie - besser!
+private static double areaDiff(Shape s1, Shape s2 ){
+    return s1.area() - s2.area();
+}
 
 
     private static void output(String outputStr) {
